@@ -14,7 +14,7 @@ echo '-------------------------------------------------------'
 echo 'Movimentando o arquivo para o Diretorio de Downloads...'
 echo '-------------------------------------------------------'
 echo ' '
-sudo cp *.tar.gz ~/Downloads/install_android_studio/
+sudo cp ~/Downloads/android-studio*.tar.gz ~/Downloads/install_android_studio/
 echo ' '
 echo '---------------------------------------'
 echo 'Conectando no Diretorio de Downloads...'
@@ -26,7 +26,7 @@ echo '--------------------------------'
 echo 'Retirando os Arquivos do .tar.gz'
 echo '--------------------------------'
 echo ' '
-sudo tar xvzf *.tar.gz -C /usr/local/
+sudo tar xvzf android-studio*.tar.gz -C /usr/local/
 echo ' '
 echo '-------------------------------------'
 echo 'Instalando as Bibliotecas necessarias'
@@ -40,6 +40,17 @@ echo '--------------------------------------'
 echo ' '
 cd /usr/local/android-studio/bin/
 ./studio.sh
+echo ' '
+echo '----------------------------'
+echo 'Configurando o Path no Linux'
+echo '----------------------------'
+echo ' '
+echo 'export ANDROID_HOME=~/Android/Sdk' >> ~/.bashrc
+echo 'export ANDROID_SDK_ROOT=~/Android/Sdk' >> ~/.bashrc
+echo 'export PATH=$PATH:$ANDROID_HOME/tools' >> ~/.bashrc
+echo 'export PATH=$PATH:$ANDROID_HOME/platform-tools' >> ~/.bashrc
+echo 'export PATH=$PATH:$ANDROID_HOME/tools/bin' >> ~/.bashrc
+source ~/.bashrc
 echo ' '
 echo '-------------------------------------'
 echo 'ANDROID STUDIO INSTALADO COM SUCESSO!'

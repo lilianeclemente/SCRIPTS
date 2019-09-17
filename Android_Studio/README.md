@@ -3,7 +3,7 @@
 ## Arquivos
 
 Nome do Arquivo| Informacao|
-|---|---|---|
+|---|---|
 Delete_Android_Studio | Serve para Desinstalar totalmente o Android Studio do Computador
 Install_Android_Studio | Serve para Instalar o android studio pelo arquivo .tar.gz deste Diretorio
 *.tar.gz | Este e o arquivo do Android Studio mais atualizado, para poder fazer a instalacao
@@ -22,4 +22,10 @@ chmod +x nomeArquivo.sh
 ./nomeArquivo.sh
 ```
 
-* Se for utilizar o instalador do android, rode o instalador dentro deste Diretorio, para ele pegar o Instalador
+## COMO INSTALAR O ANDROID STUDIO
+
+1. Va no site do Android Studio: https://developer.android.com/studio
+2. Clique no botao verde grande para baixar
+3. Quando baixar, diga para instalar no diretorio `Downloads`
+4. Rode o Programa `Instalar_Android_Studio.sh`
+
