@@ -1,2 +1,7 @@
-# SCRIPTS
-Repositorios de Script Uteis para a AGES
+# SCRIPTS ÚTEIS PARA USAR NA AGES
+
+Nome do Diretorio | Arquivo | Informação
+|---|---|---|
+Android_Studio| `Delete_Android_Studio.sh` | Deleta todas as informações do Android Studio do Linux
+
+
