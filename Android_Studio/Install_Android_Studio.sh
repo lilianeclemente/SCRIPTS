@@ -8,7 +8,7 @@ echo '---------------------------------------------'
 echo 'Criando Diretorio temporario de instalacao...'
 echo '---------------------------------------------'
 echo ' '
-sudo mkdir ~/Downloads/install_android_studio
+mkdir ~/Downloads/install_android_studio
 echo ' '
 echo '-------------------------------------------------------'
 echo 'Movimentando o arquivo para o Diretorio de Downloads...'
@@ -20,7 +20,7 @@ echo '---------------------------------------'
 echo 'Conectando no Diretorio de Downloads...'
 echo '---------------------------------------'
 echo ' '
-sudo cd ~/Downloads/install_android_studio
+cd ~/Downloads/install_android_studio
 echo ' '
 echo '--------------------------------'
 echo 'Retirando os Arquivos do .tar.gz'
