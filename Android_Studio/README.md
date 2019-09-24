@@ -65,3 +65,6 @@ chmod +x nomeArquivo.sh
 <img src="imagens/8.png">
 
 * No Script de Instalação ele ja salva os PATH do Linux, agora abra o projeto e tente rodar
+* Agora temos que criar um Shortcut para poder encontrar o caminho do Android Studio como abaixo
+
+<img src="imagens/9.png">
